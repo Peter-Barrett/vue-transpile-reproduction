@@ -35,6 +35,12 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods: {
+    test() {
+      let a = [1,2,3].map(b => { return b -1 });
+      return a;
+    }
   }
 }
 </script>

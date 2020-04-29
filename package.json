@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-component": "vue-cli-service build --target wc --inline-vue --name test-player ./src/App.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -35,8 +36,6 @@
     "rules": {}
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
+    "chrome 38"
   ]
 }
