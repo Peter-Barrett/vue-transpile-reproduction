@@ -36,6 +36,6 @@
     "rules": {}
   },
   "browserslist": [
-    "chrome 38"
+    "ie 10"
   ]
 }

@@ -9055,13 +9055,12 @@ var es_array_map = __webpack_require__("d81d");
     msg: String
   },
   methods: {
-    test() {
-      var a = [1, 2, 3].map(b => {
+    test: function test() {
+      var a = [1, 2, 3].map(function (b) {
         return b - 1;
       });
       return a;
     }
-
   }
 });
 // CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=script&lang=js&
